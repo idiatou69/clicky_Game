@@ -4,13 +4,16 @@ import "../styles/Header.css";
 
 const styles = {
   headerStyle: {
-    background: "red",
-    marging:15
-    
+    background: "blueviolet",
+    marging: "auto",
+   paddingTop:15
+
   },
   headingStyle: {
     fontSize: 30,
-    background: "red"
+    background: "blueviolet",
+    TextAlign: "top",
+    marging: 15
   }
 };
 
@@ -18,12 +21,24 @@ const styles = {
 
 function Header(props) {
   return (
-    <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>clicky Game</h1>
-      <h3>score: {props.score}  </h3>
-      <h3>top score:  {props.topScore}</h3>
-    </header>
-  );
-}
+    <div class="container">
+      <header style={styles.headerStyle} className="header">
+        <div class="row">
+          <div class="col-sm-4">
 
+            <h3 style={styles.headingStyle}>clicky Game</h3>
+          </div>
+          <div class="col-sm-4">
+             <h3>score: {props.score}  </h3>
+          </div>
+          <div class="col-sm-4">
+            <h3>top score:  {props.topScore}</h3>
+
+          </div>
+
+        </div>
+      </header>
+      </div>
+    );
+}
 export default Header;

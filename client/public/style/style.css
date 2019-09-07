@@ -1,0 +1,9 @@
+.pic{
+    /* width: 25%;
+    ;
+    margin: auto; */
+object-fit: cover;
+width: 230px;
+height: 230px;
+padding: 18px;
+}
