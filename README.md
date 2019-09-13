@@ -18,14 +18,19 @@ Assuming you are familiar with node as well as the terminal/cli and are ready to
 You will need to go to my Github repository, you can then either fork the repository and copy the Clone with HTTPS link then run the following command with the link copied from your forked version of the repo to replace what comes after "git clone" from your terminal or bash window or clone my repository the same way using the link on my Github repo the command will look like this in the terminal/CLI:
 Command:
 
-## Running
-npm i to install all your packages
-npm start to run in your node command then it will display on your localhost port 3000
-
-
 ## Built With these dependencies
 react
 react-Dom
 reactt-script
 ## technology used
 html, css javascript react and bootstrap
+
+
+## Running
+npm i to install all your packages
+npm start to run in your node command then it will display on your localhost port 3000 
+
+this is what you will have on you terminal
+
+
+![return](client/src/pictures/logo512.png)
