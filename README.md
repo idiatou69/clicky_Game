@@ -15,7 +15,8 @@ Assuming you are familiar with node as well as the terminal/cli and are ready to
 
 ## Installing
 
-You will need to go to my Github repository, you can then either fork the repository and copy the Clone with HTTPS link then run the following command with the link copied from your forked version of the repo to replace what comes after "git clone" from your terminal or bash window or clone my repository the same way using the link on my Github repo the command will look like this in the terminal/CLI:
+You will need to go to my Github repository, you can then either fork the repository and copy the Clone with HTTPS link then run the following command with the link https://github.com/idiatou69/clicky_Game
+copied from your forked version of the repo to replace what comes after "git clone" from your terminal or bash window or clone my repository the same way using the link on my Github repo the command will look like this in the terminal/CLI:
 Command:
 
 ## Built With these dependencies
