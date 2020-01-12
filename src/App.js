@@ -12,6 +12,7 @@ class App extends React.Component {
     topScore: 0,
     pictures: [{ name: 0, image: require('./pictures/download.jpg') }, { name: 1, image: require('./pictures/download (1).jpg') }, { name: 2, image: require('./pictures/download (2).jpg') }, { name: 3, image: require('./pictures/download (3).jpg') }, { name: 4, image: require('./pictures/download (4).jpg') }, { name: 5, image: require('./pictures/download (5).jpg') }, { name: 6, image: require('./pictures/download (6).jpg') }, { name: 7, image: require('./pictures/download (7).jpg') }],
     clickedPictures: []
+    
   }
 
   handleClick = (name) => {
